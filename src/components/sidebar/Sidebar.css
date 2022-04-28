@@ -28,7 +28,7 @@
   background-color: #1da1f2;
   width: 50%;
   text-align: center;
-  padding: 12px 0px;
+  padding: 13px 30px;
   border-radius: 20px;
 }
 .tweet_btn button {
@@ -42,5 +42,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 90%;
 }

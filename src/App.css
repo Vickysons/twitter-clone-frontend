@@ -13,14 +13,15 @@
 }
 
 .sidebar {
-  flex: 0.3;
+  flex: 0.25;
   border-right: 1px rgb(233, 230, 230) solid;
 }
 .feeds {
-  flex: 0.4;
+  flex: 0.5;
   border-right: 1px rgb(233, 230, 230) solid;
+  
 
 }
 .widget {
-  flex: 0.3;
+  flex: 0.25;
 }

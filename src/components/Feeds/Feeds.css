@@ -10,11 +10,14 @@
   width: 70%;
   display: flex;
   /* justify-content: space-between; */
-  align-items: baseline;
+  align-items: baseline
+}
+.profile_bottom {
+  margin-top: 20px;
 }
 
 .profile_bottom .image_profile {
-  width: 20%;
+  width: 15%;
   margin-right: 10px;
 }
 .profile_bottom .info_profile textarea {
@@ -22,18 +25,22 @@
   resize: none;
   outline: none;
   overflow: hidden;
+  font-size: large;
+  
 }
 
 .icon_page {
   display: flex;
   justify-content: space-between;
+  /* border-bottom: 1px rgb(233, 230, 230) solid; */
+  
 }
 .main_icon {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  width: 40%;
-  margin-left: 60px;
+  width: 35%;
+  margin-left: 65px;
 
 }
 .main_icon .MuiSvgIcon-root {
@@ -46,10 +53,15 @@
   text-align: center;
   padding: 12px 0px;
   border-radius: 20px;
+  opacity: 0.6;
 }
 .tweet_page button {
   outline: none;
   background-color: transparent;
   color: white;
   border: none;
+}
+.full_container {
+  border-bottom: 1px rgb(233, 230, 230) solid;
+  padding-bottom: 10px;
 }

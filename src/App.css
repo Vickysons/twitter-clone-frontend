@@ -1,0 +1,26 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.sidebar {
+  flex: 0.3;
+  border-right: 1px rgb(233, 230, 230) solid;
+}
+.feeds {
+  flex: 0.4;
+  border-right: 1px rgb(233, 230, 230) solid;
+
+}
+.widget {
+  flex: 0.3;
+}

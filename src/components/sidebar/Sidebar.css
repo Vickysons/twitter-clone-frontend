@@ -1,0 +1,46 @@
+.home,
+.explore,
+.notification,
+.messages,
+.bookmarks,
+.lists,
+.profile,
+.more {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* width: 100%; */
+  margin: auto;
+  padding: 10px 0px;
+  text-transform: capitalize;
+}
+.proflie_image {
+  width: 20%;
+}
+.sidebar-container .MuiSvgIcon-root {
+  margin-right: 15px;
+}
+.twitter-logo .MuiSvgIcon-root {
+  color: #1da1f2;
+}
+
+.tweet_btn {
+  background-color: #1da1f2;
+  width: 50%;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 20px;
+}
+.tweet_btn button {
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+.bottom_profile {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}

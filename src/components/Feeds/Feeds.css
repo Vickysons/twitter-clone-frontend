@@ -1,0 +1,55 @@
+.Feed_container {
+  padding: 0px 10px;
+}
+.home_Header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile_bottom {
+  width: 70%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: baseline;
+}
+
+.profile_bottom .image_profile {
+  width: 20%;
+  margin-right: 10px;
+}
+.profile_bottom .info_profile textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  overflow: hidden;
+}
+
+.icon_page {
+  display: flex;
+  justify-content: space-between;
+}
+.main_icon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 40%;
+  margin-left: 60px;
+
+}
+.main_icon .MuiSvgIcon-root {
+  color: #1da1f2;
+  opacity: 0.6;
+}
+.tweet_page {
+  background-color: #1da1f2;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 20px;
+}
+.tweet_page button {
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}

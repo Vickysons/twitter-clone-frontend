@@ -1,0 +1,9 @@
+.img {
+  width: 100%;
+  margin: none;
+}
+.img img {
+  width: 100%;
+  margin: none;
+  border-radius: 50%;
+}

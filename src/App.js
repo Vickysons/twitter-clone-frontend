@@ -1,3 +1,4 @@
+import "./App.css";
 import Feeds from "./components/Feeds/Feeds";
 import Sidebar from "./components/sidebar/Sidebar";
 import Widget from "./components/widget/Widget";
@@ -5,9 +6,17 @@ import Widget from "./components/widget/Widget";
 function App() {
   return (
     <>
-      <Sidebar />
-      <Feeds />
-      <Widget />
+      <div className="container">
+        <div className="sidebar">
+          <Sidebar />
+        </div>
+        <div className="feeds">
+          <Feeds />
+        </div>
+        <div className="widget">
+          <Widget />
+        </div>
+      </div>
     </>
   );
 }

@@ -14,6 +14,9 @@
   padding: 10px 0px;
   text-transform: capitalize;
 }
+.navigations {
+  margin-top: 20px;
+}
 .proflie_image {
   width: 20%;
 }
@@ -23,6 +26,26 @@
 .twitter-logo .MuiSvgIcon-root {
   color: #1da1f2;
 }
+.notification-icons .MuiSvgIcon-root {
+  position: absolute;
+  margin-right: 15px;
+}
+.notification-icons {
+  margin-right: 20px;
+  width: 18px;
+}
+.notification-icons >span {
+  position: relative;
+  bottom: 5px;
+  padding:2px 5px;
+  background-color: #1da1f2 ;
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  left: 5px;
+}
+
+
 
 .tweet_btn {
   background-color: #1da1f2;
@@ -43,5 +66,5 @@
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  /* git rep */
+  
 }

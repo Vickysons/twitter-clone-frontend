@@ -7,6 +7,16 @@ import NotesIcon from "@mui/icons-material/Notes";
 import SentimentDissatisfiedIcon from "@mui/icons-material/SentimentDissatisfied";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import CommentIcon from "@mui/icons-material/Comment";
+import CloseIcon from "@mui/icons-material/Close";
+import VerifiedIcon from "@mui/icons-material/Verified";
+import ManuLogo from "../../assets/images/manu.png";
+import Celebration from "../../assets/images/celebration.jpg";
+import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
+import ForumIcon from "@mui/icons-material/Forum";
+import LoopIcon from "@mui/icons-material/Loop";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import UploadIcon from "@mui/icons-material/Upload";
 import Profile from "../profile/Profile";
 function Feeds() {
   return (
@@ -61,7 +71,52 @@ function Feeds() {
             </div>
           </div>
         </div>
-        <div className="section_two"></div>
+        <div className="section_two">
+          <div className="seeMore">
+            <CommentIcon />
+
+            <span>
+              You might like . <span className="see_more">see more</span>
+            </span>
+          </div>
+          <div className="closeIcon">
+            <CloseIcon />
+          </div>
+        </div>
+        <div className="feeds_section">
+          <div className="side_content">
+            <div className="img_side">
+              <img src={ManuLogo} ait="ManuLogo" />
+            </div>
+            <div className="heading">
+              <span id="username">Manchester United</span>
+              <span id="Verified">
+                <VerifiedIcon />
+              </span>
+              <span id="nick">@Manutd</span> <span id="timestamp">2h</span>
+              <p>
+                Christiano Ronaldo has scored 17 goals in the premier league
+                this season
+              </p>
+              <div className="main_img">
+                <img src={Celebration} alt="celebration" />
+              </div>
+              <div className="react_icon">
+                <ForumIcon />
+                <span id="digits">10</span>
+                <LoopIcon />
+                <span id="digits">5</span>
+                <FavoriteBorderIcon />
+                <span id="digits">250</span>
+                <UploadIcon />
+                <span id="dogits">85</span>
+              </div>
+            </div>
+          </div>
+          <div className="icon_section">
+            <MoreHorizIcon />
+          </div>
+        </div>
       </div>
     </>
   );

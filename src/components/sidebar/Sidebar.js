@@ -3,11 +3,11 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import "./Sidebar.css";
 import HomeIcon from "@mui/icons-material/Home";
 import TagIcon from "@mui/icons-material/Tag";
-import NotificationsIcon from "@mui/icons-material/Notifications";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import BookmarkIcon from "@mui/icons-material/Bookmark";
+import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import ListAltIcon from "@mui/icons-material/ListAlt";
-import PersonIcon from "@mui/icons-material/Person";
+import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import Profile from "../profile/Profile";
 
@@ -33,9 +33,10 @@ function Sidebar() {
           </div>
           <div className="notification">
             <div className="notification-icons">
-              <NotificationsIcon />
+              <NotificationsNoneIcon />
+              <span id="notification_number">20</span>
             </div>
-            <div className="notificaion-text">Notification</div>
+            <div className="notificaion-text">Notifications</div>
           </div>
           <div className="messages">
             <div className="messages-icon">
@@ -45,7 +46,7 @@ function Sidebar() {
           </div>
           <div className="bookmarks">
             <div className="bookmarks-icons">
-              <BookmarkIcon />
+              <BookmarkBorderIcon />
             </div>
             <div className="bookmarks-text">Bookmarks</div>
           </div>
@@ -57,7 +58,7 @@ function Sidebar() {
           </div>
           <div className="profile">
             <div className="profile-icons">
-              <PersonIcon />
+              <PermIdentityIcon />
             </div>
             <div className="profile-text">Profile</div>
           </div>
@@ -76,8 +77,8 @@ function Sidebar() {
             <Profile />
           </div>
           <div className="profile_info">
-            <p>Donmartins</p>
-            <h5>@Donmart25924229</h5>
+            <p>Victor kalu</p>
+            <h5>@Victork50592629</h5>
           </div>
           <div className="profile_more">
             <MoreHorizIcon />
